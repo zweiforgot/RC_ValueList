@@ -1,0 +1,74 @@
+:root {
+    --darkest: #22212C;
+    --dark: #24294e;
+    --highlight1: #585aa9;
+    --highlight2: #9b95fb;
+    --text: #f5dcf6;
+}
+
+
+* {
+    font-family: "JetBrains Mono";
+}
+
+body {
+    background-color: #22212C;
+    color:aliceblue;
+}
+
+.title {
+    width: 75vw;
+    margin: auto;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 79px;
+    text-align: center;
+    color: #9580FF;
+}
+
+.list-holder {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 400px;
+    word-wrap: break-word;
+    background-color: #45435a;
+    background-clip: border-box;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    max-width: 400px;
+   
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    font-size: 1vw;
+}
+
+.card-title {
+    font-style: bold;
+    font-size: 2vw;
+    margin:auto !important;
+}
+
+.card-text:last-child {
+    margin-bottom: 0
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "rc_valuelist",
+  "version": "1.0.0",
+  "description": "value list for refinery caves",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zweiforgot/RC_ValueList.git"
+  },
+  "author": "zwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zweiforgot/RC_ValueList/issues"
+  },
+  "homepage": "https://github.com/zweiforgot/RC_ValueList#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "dracula-ui": "^1.0.3",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^105.0.0"
+  }
+}
